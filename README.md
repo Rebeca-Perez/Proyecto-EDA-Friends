@@ -53,15 +53,15 @@ Código	Hipótesis:
 
 Visualizaciones Incluidas
 
-🟡 H1: Mediana de votos totales por duración de episodio
+ - H1: Mediana de votos totales por duración de episodio
 
-🔵 H2: Rating del primer y último episodio de cada temporada
+ - H2: Rating del primer y último episodio de cada temporada
 
-🔴 H3: Rating total por temporada
+ - H3: Rating total por temporada
 
-🟠 H4: Directores con episodios más votados
+ - H4: Directores con episodios más votados
 
-🟢 H5: Rating de episodios especiales (Sí/No)
+ - H5: Rating de episodios especiales (Sí/No)
 
 
 ## Resultados y Conclusiones
