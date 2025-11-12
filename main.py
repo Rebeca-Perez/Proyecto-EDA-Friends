@@ -4,6 +4,15 @@
 import pandas as pd
 import matplotlib.pyplot as plt     
 import seaborn as sns
+import os
+
+"""
+    Comprobar si existe la carpeta img donde se guardarán los gráficos, si no está la crea.
+"""
+if not os.path.exists("./img"):
+    os.mkdir("./img")
+else:
+    print("ya existe")   
 
 """
     Carga de datos en un Dataframe para evaluar que datos tenemos.
