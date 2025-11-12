@@ -47,7 +47,7 @@ Instalación de dependencias:
 Código	Hipótesis:
     H1	Los episodios más largos tienen mayor número de votos.
     H2	Los episodios finales de cada temporada tienen un rating más alto que los primeros.
-    H3	Las temporadas con mejor rating son las que están en la mitad (4-6).
+    H3	Las temporadas con mayor rating están en la mitad de la serie.
     H4	Los directores con más episodios tienden a tener más votos totales.
     H5	Los episodios especiales obtienen un rating diferente al de los episodios normales.
 
