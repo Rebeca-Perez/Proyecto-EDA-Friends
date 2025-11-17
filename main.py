@@ -33,7 +33,6 @@ df_h1 = df_friends.groupby("duration_in_minutes").median("total_votes")
     Se guarda en la carpeta img al ejecutarse.
     plt.close, no sobreescribe los gráficos.
 """
-plt.figure(figsize=(4,4))
 sns.barplot(data=df_h1, x=df_h1.index, y="total_votes", color="#CC241B", label=df_h1["total_votes"])
 plt.xlabel("Duración de episodio (minutos)")
 plt.ylabel("Mediana de votos totales por duración")
@@ -107,7 +106,7 @@ plt.title("Director con episodios más votados")
 ax.set_xlabel("Votos totales")
 ax.set_ylabel("Director")
 ax.invert_yaxis()
-plt.savefig("img/grafico_h4.png")
+plt.savefig("img/grafico_h4.png", bbox_inches="tight")
 plt.close()
 
 """
@@ -123,6 +122,7 @@ df_h5 = (df_friends.groupby("special_episode")["rating"].mean().reset_index())
     plt.close para no se sobreescriben los gráficos.
 """
 plt.pie(df_h5["rating"], autopct="%1.2f%%", colors=["#2E4170", "#F8DB01"])
+plt.axis("equal")
 plt.title("Rating de episodios especiales")
 plt.legend(labels=["Ep.Normal", "Ep.Especial"], loc="upper left")
 plt.savefig("img/grafico_h5.png")
